@@ -1,0 +1,4 @@
+;
+$dir = './';
+$files = scandir($dir); // 파일 목록 가져오기
+print_r($files); // 배열 출력
